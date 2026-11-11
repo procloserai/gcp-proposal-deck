@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>General Capital Partners | Private AI Harness Proposal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<main id="deck">
+
+<section class="slide" data-slide="title">
+  <div class="title-stack">
+    <img class="sb-logo" src="assets/shorebreak-logo-white.png" alt="ShoreBreaK Investment Partners">
+    <h1 class="title-main">PRIVATE AI <span class="cyan">HARNESS</span></h1>
+    <div class="title-underline"></div>
+    <p class="title-sub">A private assistant that runs in your own AWS account.</p>
+    <p class="slide-foot" style="margin:0">Prepared for Greg Barrow, Sandy Harrison and Jack Savage by Aaron Whittaker, ProCloser.ai (aaron@procloser.ai).</p>
+  </div>
+  <div class="title-corner-tl">NOVEMBER 2026</div>
+  <div class="title-corner-br">
+    <div class="prepared">PREPARED BY</div>
+    <div class="by"><img src="data:image/png;base64,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" alt="ProCloser.ai" style="height:26px;display:block;margin-left:auto"></div>
+  </div>
+</section>
+
+<section class="slide" data-slide="get">
+  <header class="slide-head"><p class="eyebrow">What you get</p><h2>A versioned record for every deal</h2><div class="head-rule"></div></header>
+  <p class="slide-intro">A private assistant that runs in your own AWS account. It keeps a versioned record for every deal and works from the files and mail you already have.</p>
+  <div class="card cols-2">
+    <ul>
+      <li>A record store, Postgres plus a Markdown file per deal, versioned, with a nightly backup.</li>
+      <li>Read-only ingestion of the deal folder, emailed attachments and your calendar.</li>
+      <li>A Monday "stuck and owed" digest.</li>
+      <li>A pre-meeting brief 24 hours before any outside meeting, with open items and who owes what. All items are listed and the open ones are flagged.</li>
+      <li>OCR of attachments and handwriting.</li>
+      <li>Voice-matched email drafts that show up in your drafts folder.</li>
+      <li>Call-back reminders.</li>
+      <li>A dashboard page.</li>
+      <li>DeepSeek on Bedrock for bulk, non-confidential work. Claude for the rest.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="slide" data-slide="lane">
+  <header class="slide-head"><p class="eyebrow">Confidential lane</p><h2>NDA work stays in your AWS account</h2><div class="head-rule"></div></header>
+  <div class="card green-edge">
+    <ul>
+      <li>Bedrock in your AWS account, on a private address over Tailscale, with SSO, an audit log and spend caps.</li>
+      <li>A Plaud "confidential" keyword files NDA transcripts only to this lane.</li>
+      <li>Person-level visibility. You choose who sees confidential items, for example only Greg and Sandy.</li>
+    </ul>
+  </div>
+  <div class="callout warn"><div class="cl-value">Audio and transcription still run on Plaud's cloud. The keyword routes the finished transcript.</div></div>
+</section>
+
+<section class="slide" data-slide="affinity">
+  <header class="slide-head"><p class="eyebrow">Your Affinity data and pipelines, included</p><h2>The data stays yours and keeping Affinity is your call</h2><div class="head-rule"></div></header>
+  <div class="card">
+    <p>We rebuild your lists, pipelines, notes and history inside your own system, so keeping or cancelling Affinity at renewal is your call. All 33 of your Affinity lists come into the new store, including your five pipelines: GCP Pipeline, Sell Side &amp; BK, ShoreBreaK, Advisory and All Active Deals. ShoreBreaK keeps its own pipeline, the way you set it up.</p>
+    <ul>
+      <li>A full export before renewal: organizations, people, lists, notes and interactions, loaded into your store.</li>
+      <li>Your notes, open reminders and LinkedIn profile links come across with the people, companies and deals they belong to.</li>
+      <li>Each of you can add your own LinkedIn connections file, the same way Affinity takes it in.</li>
+      <li>The system does not collect from LinkedIn automatically, because LinkedIn's terms do not allow it.</li>
+      <li>The system logs who you emailed and met, and when, so last-contact dates and follow-up reminders keep working.</li>
+      <li>Add and edit deals through Claude, with dedupe.</li>
+      <li>Pipeline views on the dashboard.</li>
+      <li>The BankruptcyData loader adds new deals to the GCP Pipeline list.</li>
+      <li>Cutover, then a keep-or-cancel memo before the renewal.</li>
+    </ul>
+    <p>What we are not rebuilding: Affinity's relationship strength scores, its company data feeds from PitchBook, Dealroom and Crunchbase, its Chrome extension, its notetaker and its mobile app. If you want any of these, we quote it as a separate project.</p>
+  </div>
+</section>
+
+<section class="slide" data-slide="training">
+  <header class="slide-head"><p class="eyebrow">Training and self-service</p><h2>Your team configures it with AI, and we keep it running</h2><div class="head-rule"></div></header>
+  <div class="card green-edge">
+    <p>Two training sessions, a runbook, and a git setup so your team can configure the digests, briefs, views and reports themselves with AI, following the runbook. We stay on for maintenance and support as set out below. Everything runs in your accounts and you own it.</p>
+  </div>
+</section>
+
+<section class="slide" data-slide="who">
+  <header class="slide-head" style="margin-bottom:14px"><p class="eyebrow">Who does what</p><h2>We build it and keep it running. You configure it.</h2><div class="head-rule"></div></header>
+  <p class="slide-intro" style="margin-bottom:10px">We build the system and keep it running. Your team teaches it how you work and runs it day to day, and we show you how.</p>
+  <div class="two-col">
+    <div class="card">
+        <h3 style="margin-bottom:8px">ProCloser builds, weeks 1 to 6</h3>
+        <ul>
+          <li>Files the Claude access request in your AWS account on day one.</li>
+          <li>Builds the record store, the ingestion, the digest, the briefs, the drafts, the reminders and the dashboard.</li>
+          <li>Builds the confidential lane inside your AWS account.</li>
+          <li>Exports your Affinity lists into your store and runs the cutover.</li>
+          <li>Runs two training sessions and hands over the runbook.</li>
+        </ul>
+    </div>
+    <div class="card amber-edge">
+      <h3>General Capital Partners</h3>
+      <ul>
+        <li>Greg and Sandy pick an option and sign.</li>
+        <li>Jack confirms the Affinity renewal date, gives us access to your AWS account and creates a separate Affinity key for the system.</li>
+        <li>You pay the AWS bill directly, and you pay Anthropic for the Claude Team seats.</li>
+        <li>You tell us who can see confidential items and which mail system the drafts go to.</li>
+        <li>After go-live your team teaches the assistant how you work and configures the digests, briefs, views and reports by asking the AI. We show you how in training.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-slide="monthly-fee">
+  <header class="slide-head" style="margin-bottom:14px"><p class="eyebrow">Monthly fee</p><h2>What the monthly fee covers</h2><div class="head-rule"></div></header>
+  <div class="two-col">
+    <div class="card">
+      <h3>Included</h3>
+      <ul>
+        <li>Monitoring, backups, security updates and model updates when Anthropic or AWS change something.</li>
+        <li>Any fix to something we built, at no charge and without a quote.</li>
+        <li>Up to 1 hour a month of adjustments and small additions. Unused time does not carry over.</li>
+        <li>A 30-minute check-in call each month.</li>
+        <li>Replies within one business day, Monday to Friday.</li>
+        <li>A 30-day review after go-live: what the team uses, what it saves.</li>
+      </ul>
+    </div>
+    <div>
+      <div class="card amber-edge" style="margin-bottom:24px">
+        <h3>Not included</h3>
+        <ul>
+          <li>New features, new data sources or new integrations. We quote these per project before any work starts.</li>
+          <li>Day-to-day configuration and teaching the assistant how you work. Your team does this by asking the AI, and we train you on it.</li>
+          <li>Support for changes made outside the runbook. We can fix those as quoted work.</li>
+          <li>Also discussed in Dallas and quoted separately when you want them: a PitchBook review, a Slack feed, research agents and version notices on shared documents.</li>
+        </ul>
+      </div>
+      <div class="card green-edge">
+        <h3>One owner on your side</h3>
+        <ul>
+          <li>Jack is the named owner of the system. Requests come through him, and he gets the admin training and the runbook.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-slide="models">
+  <header class="slide-head"><p class="eyebrow">Models and security</p><h2>Claude for judgment, DeepSeek for bulk</h2><div class="head-rule"></div></header>
+  <div class="two-col">
+    <div class="card">
+      <h3>Models</h3>
+      <p>Claude Sonnet 5.5 and Opus 5.5 on Bedrock, with DeepSeek for bulk work. Claude on Bedrock is enabled per AWS account. We file the request on day one, and the lead time is AWS's.</p>
+    </div>
+    <div class="card green-edge">
+      <h3>Security</h3>
+      <ul>
+        <li>A written data-flow diagram.</li>
+        <li>The confidential lane runs inside your AWS account.</li>
+        <li>Your counsel reviews the terms.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-slide="timeline">
+  <header class="slide-head"><p class="eyebrow">Timeline</p><h2>Six weeks from signing and AWS and Bedrock access</h2><div class="head-rule"></div></header>
+  <div class="steps">
+    <div class="step"><div class="step-num">1</div><h3>Weeks 1 to 3</h3><p>The assistant, the record store and the Affinity mirror.</p></div>
+    <div class="step"><div class="step-num">2</div><h3>Weeks 3 to 5</h3><p>The confidential lane.</p></div>
+    <div class="step"><div class="step-num">3</div><h3>Weeks 5 to 6</h3><p>The cutover from Affinity, with a final export first, and training.</p></div>
+  </div>
+  <p class="slide-intro" style="margin-top:18px">If your Affinity renewal comes up before week 6, we run the export first.</p>
+</section>
+
+<section class="slide" data-slide="pricing">
+  <header class="slide-head"><p class="eyebrow">Pricing</p><h2>Two ways to start</h2><div class="head-rule"></div></header>
+  <p class="addon-note" style="margin:0 0 10px;color:var(--light);font-size:clamp(14px,1.1vw,18px)">The one-time setup fee is $2,500 on both options.</p>
+  <table class="proj-table">
+    <thead><tr><th>Plan</th><th>Setup</th><th>Monthly</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td>Option 1</td><td>$2,500 setup at signing</td><td>$995/mo</td><td>Setup paid up front</td></tr>
+      <tr><td>Option 2</td><td>No separate setup payment</td><td>$1,412/mo months 1 to 6 (includes the setup), then $995/mo</td><td>Setup spread over 6 months</td></tr>
+      <tr class="addon"><td>AI Search Visibility add‑on</td><td></td><td>+$995/mo</td><td>Optional</td></tr>
+</tbody>
+  </table>
+  <p class="addon-note" style="margin-top:14px;color:var(--light);font-size:clamp(14px,1.1vw,18px)">The AI Search Visibility add-on is monthly work so ChatGPT, Google AI and Perplexity name GCP when business owners ask for an M&A advisor.</p>
+</section>
+
+<section class="slide" data-slide="terms">
+  <header class="slide-head"><p class="eyebrow">Terms, costs, support</p><h2>What we ask in return, and what runs in your accounts</h2><div class="head-rule"></div></header>
+  <div class="three-col terms-grid">
+    <div class="card">
+      <h3>Terms</h3>
+      <ul>
+        <li>Both options run for a 6-month term. At signing you pay $3,495 on Option 1, which is the $2,500 setup plus the first $995 month, or $1,412 on Option 2, which is the first month.</li>
+        <li>If you stop before month 6, the remaining months of the term are due at your option's monthly rate.</li>
+        <li>After month 6 the agreement runs month to month at $995/mo, and either side can end it with 30 days written notice. You pay through the notice period and nothing after it. Whenever the agreement ends, you keep the system and everything we built, and our maintenance and support end.</li>
+        <li>In return for this price we ask for 3 qualified introductions in the first 12 months and a case study, which you approve before it is published.</li>
+        <li>A qualified introduction is a firm you refer to us that takes a discovery call with ProCloser.</li>
+        <li>Our liability is capped at the fees paid in the 12 months before the claim.</li>
+      </ul>
+    </div>
+    <div class="card green-edge">
+      <h3>Costs in your accounts</h3>
+      <p>Hard costs run in your own accounts: about $110-170/mo at base use (Lightsail, the Bedrock gateway and Bedrock tokens). Of that, the server is about $24 and the gateway is $16 to $30. Model usage is the rest, about $75 to $105 a month. Heavy use can raise it. Claude Team seats are billed by Anthropic per user, and the seat count is your choice.</p>
+    </div>
+    <div class="card amber-edge">
+      <h3>Support and payment</h3>
+      <ul>
+        <li>Replies within one business day, Monday to Friday. An on-call option is $500/mo.</li>
+        <li>Payment by Stripe, card or ACH.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-slide="next">
+  <header class="slide-head"><p class="eyebrow">Next steps</p><h2>Four steps to kickoff</h2><div class="head-rule"></div></header>
+  <div class="card">
+    <ol>
+      <li>Jack confirms the Affinity renewal date.</li>
+      <li>Greg and Sandy pick option 1 or 2 and sign.</li>
+      <li>Jack gives us access to your AWS account.</li>
+      <li>We hold the kickoff call and the six weeks start.</li>
+    </ol>
+  </div>
+</section>
+
+</main>
+
+<nav class="deck-nav" id="deckNav" aria-label="Slide navigation">
+  <button id="prev" class="nav-btn" aria-label="Previous slide">&larr;</button>
+  <span id="counter" class="counter">1 / 12</span>
+  <button id="next" class="nav-btn" aria-label="Next slide">&rarr;</button>
+</nav>
+
+<div class="edge-zone left" id="edgeLeft" aria-hidden="true"><div class="arrow">&larr;</div></div>
+<div class="edge-zone right" id="edgeRight" aria-hidden="true"><div class="arrow">&rarr;</div></div>
+
+<div class="deck-progress"><div class="dp-bar" id="dpBar"></div></div>
+
+<aside class="deck-help" id="deckHelp" aria-hidden="true">Arrow keys to navigate</aside>
+
+<script src="app.js"></script>
+</body>
+</html>
